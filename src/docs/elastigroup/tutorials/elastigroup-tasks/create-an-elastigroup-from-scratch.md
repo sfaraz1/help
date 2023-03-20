@@ -43,7 +43,7 @@ This procedure describes how to create an Elastigroup using an empty template. T
 
 5. Launch Specification: Define the parameters below.
    - Image: Choose the AMI to use for your Elastigroup. The AMI should be based in the same region as your Elastigroup.
-   - Security Groups: Choose one or more security to apply to your instances.
+   - Security Groups: Choose one or more Security Groups to apply to your instances.
    - Key Pair: Enter the key pair that will be used for authenticating with your instances.
 6. Click Next.
 
