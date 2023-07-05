@@ -43,7 +43,7 @@ Provision the cluster resources using a CloudFormation template.
 
 <img src="/ocean/_media/new-eks-step3.png" />
 
-To launch the stack mark the checkbox at the bottom confirming CloudFormation will create IAM resources, and click Create stack.
+To launch the stack, mark the checkbox at the bottom confirming CloudFormation will create IAM resources, and click Create stack.
 
 <img src="/ocean/_media/new-eks-step3-a.png" />
 
