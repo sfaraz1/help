@@ -16,7 +16,7 @@ Presets have user preference retention and when they are created, they will not 
 
  <img src="/spot-security/_media/create-presets.png" />
 
-4. Enter a name for the preset, mark if you want to save this preset as the default, and click Save. For your first preset, you do not need to mark the default box.
+4. Enter a name for the preset, check the Set as Default Preset box if you want to save this preset as the default, and click Save. If this is your first preset, you do not need to mark the default box.
 
 Once you have created a new preset, the name will appear as part of the Security Summary title.
 
