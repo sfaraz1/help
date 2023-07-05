@@ -1,6 +1,6 @@
 # Create a New EKS Cluster
 
-In this procedure, you complete the steps to create an Amazon EKS cluster directly from the Spot Console and an Ocean object to manage the cluster worker nodes.
+In this tutorial, you complete the steps to create an Amazon EKS cluster directly from the Spot Console and an Ocean object to manage the cluster worker nodes.
 
 ## Prerequisites
 
