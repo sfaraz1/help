@@ -20,7 +20,7 @@ The service map dropdown menu, along with a date filter, provides a 360-degree d
 
 <img src="/spot-security/_media/topology-2.png" />
 
-The 360-degree view provides information based on the date and service map filter in the table underneath it. If you want to see a detailed 360-degree view, you can expand the table in the top right corner of the 360° detail View panel.
+The 360-degree view provides information based on the date and service map filter in the table underneath it. In order to see a detailed 360-degree view, you can expand the table in the top right corner of the 360° detail View panel.
 
 <img src="/spot-security/_media/topology-3.png" />
 
