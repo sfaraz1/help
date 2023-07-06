@@ -60,7 +60,7 @@ Click [Remediation Steps](spot-security/features/analyze-risks/remediate) to vie
 
 ### Suppress a Rule  
 
-You can also accept a risk by selecting the check box near the Sevurity Rule Name and clicking Suppress in the Actions menu. This removes the risk from your list. You can suppress one or multiple rules.
+You can also accept a risk by selecting the check box near the Security Rule Name and clicking Suppress in the Actions menu. This removes the risk from your list. You can suppress one or multiple rules.
 
 <img src="/spot-security/_media/risk-analysis-4.png" />
 
