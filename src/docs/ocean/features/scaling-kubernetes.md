@@ -57,6 +57,11 @@ In order to enable import of GKE clusters to Ocean and registration of new nodes
 
 Ocean proactively identifies underutilized nodes and [bin-packs](https://en.wikipedia.org/wiki/Bin_packing_problem) the pods on the nodes more efficiently to be able to scale down the nodes and reduce the cluster cost. This is reflected by a higher resource allocation. Every minute, Ocean simulates whether there are any running pods that can be moved to other nodes within the cluster. If so, Ocean drains those nodes (cordon the nodes and evicts the pods gracefully) to ensure continuous infrastructure optimization and increased cloud savings.
 
+- By Default: Ocean will check for underutilized nodes every minute. This process will be governed by a cooldown period (default of 5 minutes, but can be configured based on customer requirements) and a max scale down percentage. A node is considered underutilized if its below 60% underutilization (this is configurable/ and can be changed based on customer requirements). Ocean then checks the node to see if the pods are able to be moved to another available node. Ultimately checking if there are restrict scale down parameters or if there is PDB that would prevent the pod from successfully being scheduled to another node.
+  - Once a node is underutilized for 60 seconds it will be market for termination 
+  - Ocean then waits based on the cooldown time, before initiating a scale down
+    - Ocean factors the scale down % to determine how many of the nodes we can take down. 
+
 ### Scale Down Behavior
 
 - When scale down of a node is expected, Ocean utilizes a configurable draining timeout of at least 300 seconds. (This can be configured using the drainingTimeout parameter on the Ocean level). At this time, Ocean marks the node as unschedulable and evicts all pods running on the node.
